@@ -1,0 +1,54 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.viewBook{
+  outline: none;
+  border: 1px solid white;
+  background-color: transparent;
+  padding: 5px 20px 5px 20px;
+  color: white;
+  font-size: 20px;
+}
+.viewBook:hover{
+  outline: none;
+  border: 1px solid gold;
+  background-color: transparent;
+  padding: 5px 20px 5px 20px;
+  color:gold;
+  font-size: 20px;
+}
+th{
+  text-align: center;
+  font-size: 17px;
+}
+td{
+  text-align: center;
+  font-size: 17px;
+}
+.Home-Page{
+  background-image: url('./images/image1.jpg');
+  height: 100%; 
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.card{
+  justify-content: center;
+  text-align: center;
+  height: 300px;
+  width: 700px;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.card-group{
+  margin-top: 150px;
+  
+}
+.titre{
+  text-align: center;
+  margin-top: 50px;
+  font-family: Serif;
+  font-size: 55px;
+}
